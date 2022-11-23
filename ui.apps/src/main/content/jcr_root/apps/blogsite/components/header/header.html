@@ -1,0 +1,25 @@
+<!--<div data-sly-use.body="com.mysite.core.models.HeaderModel">-->
+<!--   text : ${body.color}-->
+<!--   color : ${body.text}-->
+<!--</div>-->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories=['blogsite.site']}"/>
+<sly data-sly-use.body="com.blogsite.core.models.HeaderModel"></sly>
+<a name = "top"></a>
+<div class="row flex-nowrap justify-content-between align-items-center">
+    <div class="col-12 text-center">
+        <a class="blog-header-logo text-dark" href="https://www.tothenew.com/">
+            <img src="${body.logo}" class="ttn-logo">
+            ${body.title}
+        </a>
+    </div>
+</div>
+</header>
+
+<div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex">
+        <sly data-sly-list="${body.links}">
+        <a class="p-2 text-muted" href="${item.link}">${item.name}</a>
+        </sly>
+    </nav>
+</div>

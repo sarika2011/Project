@@ -1,0 +1,22 @@
+<!--<div data-sly-use.model="com.mysite.core.models.FooterModel">-->
+<!--   Content of Footer : ${model.textFooter}-->
+<!--</div>-->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories=['blogsite.site']}"/>
+<sly data-sly-use.body="com.blogsite.core.models.FooterModel"></sly>
+<p class="align-center">
+    <a href="#top">Back to top</a>
+</p>
+
+<footer class="blog-footer">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 ">
+            <div class="footer__block">
+                <sly data-sly-list="${body.links}">
+                <a target="" href="${item.link}" aria-label="PwC office locations">${item.name}</a></t>
+                </sly>
+            </div>
+        </div>
+    </div>
+    <p>© 2022  - 2023 TTN Bootcamp. All rights reserved.</p>
+</footer>

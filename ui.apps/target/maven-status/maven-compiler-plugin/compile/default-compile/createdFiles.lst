@@ -1,0 +1,17 @@
+org/apache/sling/scripting/sightly/apps/blogsite/components/link/link_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/page/customheaderlibs_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/ArchivesOfBlogPage/ArchivesOfBlogPage_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/helloworld/helloworld_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/footer/footer_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/header/header_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/AboutOfBlogPage/AboutOfBlogPage_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/publishedBlogPages/publishedBlogPages_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/xfpage/customheaderlibs_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/page/customfooterlibs_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/HeadingOfBlog/HeadingOfBlog_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/xfpage/customfooterlibs_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/carouselHomepage/carouselHomepage_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/BlogsHomepage/BlogsHomepage_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/ContentOfBlog/ContentOfBlog_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/xfpage/content_html.class
+org/apache/sling/scripting/sightly/apps/blogsite/components/BannerOfBlogPage/BannerOfBlogPage_html.class
